@@ -1,0 +1,61 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.section-title{
+    font-family: Rubik Glitch, cursive;
+}
+
+#sobre, #produtos{
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button{
+    background-color: black;
+    color: white;
+}
+
+.nav-produtos .nav-link{
+    color: white;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.img-size{
+    height: 500px;
+    width: 1400px;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
